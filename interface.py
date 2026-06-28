@@ -18,4 +18,4 @@ def warning_press(msg: str) -> bool:
         return False
 
 def error(msg: str):
-    print(Fore.RED + "[ERORR] " + msg)
+    print(Fore.RED + "[ERROR] " + msg)

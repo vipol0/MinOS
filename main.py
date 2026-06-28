@@ -11,6 +11,9 @@ def main():
         command = input(filesystem.get_promt() + "> ")
         parts = command.split()
 
+        if not parts:
+            continue
+
         match parts[0]:
             case "help":
                 commands.help()
@@ -22,8 +25,8 @@ def main():
                 commands.cat(parts)
             case "notepad":
                 commands.notepad(parts)
-            case "dir":
-                commands.dir(parts)
+            case "mkdir":
+                commands.mkdir(parts)
             case "rm":
                 commands.rm(parts)
             case "clear":

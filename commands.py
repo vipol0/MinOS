@@ -10,7 +10,7 @@ def help():
     print("cd <folder> - Navigating through folders")
     print("cat <file> - Read a file")
     print("notepad <file> - Open text editor")
-    print("dir <name> - Сreate a folder")
+    print("mkdir <name> - Сreate a folder")
     print("rm <name> - Delete the file")
     print("clear - Clear the terminal")
     print("exit - Exit the terminal")
@@ -102,7 +102,7 @@ def notepad(parts):
 
     ok("File saved")
 
-def dir(parts):
+def mkdir(parts):
     if len(parts) != 2:
         error("Usage: dir <folder>")
         return
