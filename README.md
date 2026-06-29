@@ -84,6 +84,7 @@ Hello word!
 ## Technologies
 
 * Python 3
+* Colorama
 
 ## Future Plans
 
