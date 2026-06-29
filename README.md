@@ -1,5 +1,9 @@
 # MinOS
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Status](https://img.shields.io/badge/Status-Alpha-orange)
+![Platform](https://img.shields.io/badge/Platform-Terminal-lightgrey)
+
 A simple terminal-based operating system simulator written in Python.
 
 ## About
